@@ -9,11 +9,20 @@
 
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 
+          <script type="text/javascript" charset="utf-8">
 
+
+             function callAnothePage()
+             {
+                window.location = "deuxieme.html";
+             }
+
+          </script>
 
     
   </head>  
   <body>
 <div id="div" onclick="alert('test');document.getElementById('div').style.background='black';" style="width:100px;height:100px;background:red;"></div>
+<button name="buttonClick" onclick="callAnothePage()">Click Me!</button>
     </body>
 </html>
